@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "my-list-fetching-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myListFetching/MyListFetchingWebPart.js",
+          "manifest": "./src/webparts/myListFetching/MyListFetchingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyListFetchingWebPartStrings": "lib/webparts/myListFetching/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

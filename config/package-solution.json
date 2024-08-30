@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "list-fetcher-client-side-solution",
+    "id": "b4d9e19f-4568-4ed6-9905-fbbd333a0ff1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ListFetcher description"
+      },
+      "longDescription": {
+        "default": "ListFetcher description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "list-fetcher Feature",
+        "description": "The feature that activates elements of the list-fetcher solution.",
+        "id": "431b4546-0f9a-4d0f-84fb-bee0e541169b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/list-fetcher.sppkg"
+  }
+}
